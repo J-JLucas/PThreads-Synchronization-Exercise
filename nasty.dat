@@ -1,0 +1,23 @@
+# A simulation instance similar to the Dining Philosophers Problem with 5 people
+#
+resources A:1 B:1 C:1 D:1 E:1 F:1 G:1 H:1 I:1 J:1
+task t1 50 200 A:1 B:1
+task t2 50 200 B:1 C:1
+task t3 50 200 C:1 D:1
+task t4 50 200 D:1 E:1
+task t5 50 200 E:1 A:1
+task t6 50 200 A:1 B:1 C:1
+task t7 50 200 B:1 C:1 D:1
+task t8 50 200 C:1 D:1 E:1
+task t9 50 200 E:1 F:1 G:1
+task t10 50 200 F:1 G:1 H:1
+task t11 50 200 G:1 H:1 I:1
+task t12 50 200 H:1 I:1 J:1
+task t13 50 200 I:1 J:1 A:1
+task t14 50 200 J:1 A:1 B:1
+task t15 50 200 A:1 B:1 C:1 D:1
+task t16 50 200 B:1 C:1 D:1 E:1
+task t17 50 200 C:1 D:1 E:1 F:1
+task t18 50 200 D:1 E:1 F:1 G:1
+task t19 50 200 E:1 F:1 G:1 H:1
+task t20 50 200 F:1 G:1 H:1 I:1
